@@ -73,7 +73,7 @@ export default function Home() {
     >
       <button
         onClick={toggleTheme}
-        className="mb-4 p-2 border rounded bg-gray-200 dark:bg-gray-800"
+        className="mb-4 p-2 border rounded bg-gray-200 dark:bg-gray-400"
       >
         Toggle {theme === "light" ? "Dark" : "Light"} Mode
       </button>
